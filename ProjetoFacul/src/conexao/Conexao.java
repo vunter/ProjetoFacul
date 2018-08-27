@@ -1,4 +1,4 @@
-package lpoo.projeto.da.disciplina.codigo;
+package conexao;
 
 import java.sql.*;
 

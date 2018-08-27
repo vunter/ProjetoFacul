@@ -1,6 +1,9 @@
 package lpoo.projeto.da.disciplina.codigo;
 
 import java.util.*;
+
+import conexao.Conexao;
+
 import java.sql.*;
 
 public class ProjetoTeste {
