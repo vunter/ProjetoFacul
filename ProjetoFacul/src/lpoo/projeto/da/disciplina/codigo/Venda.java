@@ -1,7 +1,9 @@
 package lpoo.projeto.da.disciplina.codigo;
 
-public class Venda extends Cliente implements Comandos {
+import java.util.Scanner;
 
+public class Venda extends Cliente implements Comandos {
+	Scanner in = new Scanner(System.in);
 	private double somaPrecos = 0;
 	private double desconto;
 	private double valorFinal;

@@ -3,12 +3,12 @@ package lpoo.projeto.da.disciplina.codigo;
 import java.util.*;
 
 public class Cliente extends Pontos {
-	Scanner in = new Scanner(System.in);
 	private String nome;
 	private int idade;
 	private String CPF;
 	public Calendar dataNascimento = Calendar.getInstance();
 	private boolean ativo;
+	private Calendar anoAtual = GregorianCalendar.getInstance();
 
 	public Cliente() {
 
@@ -42,7 +42,7 @@ public class Cliente extends Pontos {
 	}
 
 	public void setIdade(int ano) {
-		int idadeC = 2018 - ano;
+		int idadeC = anoAtual.get(Calendar.YEAR) - ano;
 		this.idade = idadeC;
 	}
 
